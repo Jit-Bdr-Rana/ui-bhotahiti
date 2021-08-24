@@ -1,0 +1,34 @@
+
+  /* become a vendor */
+  
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;400&display=swap');
+  
+  
+  .bg-indigo-dark{
+    background: linear-gradient(0deg,#4f48ad,#1d185e 71.5%);
+  }
+  .vendor-form-wrapper{
+    background-image: linear-gradient(137deg,#4e319c,#296bb7);
+      }
+    .vendor_step_process h4{
+      border-radius: 50%;
+      height: 59px;
+      width: 87px;
+      line-height: 53px;
+      font-size: 24px
+    }
+    @media (max-width:576px){
+      .vendor_step_process h4{
+        border-radius: 50%;
+        height: 57px;
+        width: 78px;
+        line-height: 56px;
+        font-size: 24px;
+      } 
+    }
+  
+    .ff-josefin_sans{
+      font-family: 'Josefin Sans', sans-serif;
+    }
+  
+  /*************************/
