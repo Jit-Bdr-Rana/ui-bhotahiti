@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+	font-family: 'Poppins', sans-serif;
+	background: var(--primary-color);
+}
+img{
+	max-width: 100%;
+}
+.best__deal{
+  background-color:#20438D ;
+}
+.best__deal__back{
+	background-color:#7688AD;
+}
+
+.best__deal_button{
+	border-color: #2196F3;
+	color: blue;
+	font-size:12px ;
+}
+.best__deal_button:hover{
+	border-color: purple;
+}
+
+@media screen and (min-width: 1025px){
+  .product-item .col-lg{
+      max-width: 20%;
+      flex: 0 0 20%;
+      -ms-flex: 0 0 20%;
+
+}	
+  .brand-item .col-lg{
+      max-width: 14.28%;
+      flex: 0 0 14.28%;
+      -ms-flex: 0 0 14.28%;
+    }	
+}
+.main-title h2{
+	padding: 10px 15px;
+	background-color: #20438D;
+  color: #ffff;
+  z-index: 1;
+  margin: 0;
+}
+
+.main-title span{
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #7688AD;
+	color: #ffff;
+	text-align: right;
+	padding:10px 15px ;
+}
+
+.main-title a{
+	color: #ffff;
+	
+}
+.men_clothes{
+	font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.row ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ads__ img{
+	height:auto;
+	width: 100%;
+	left: 319px;
+top: 1744px;
+}
+
+.ml-2 h6{
+	font-size: 	16px;
+	font-family: 'Inter', sans-serif;
+}
+.d-flex span{
+	font-size: 24px;
+}
+.row-0{
+	margin-left: 0;
+	margin-right: 0;
+}
+.row-0 > *{
+	padding-left: 0;
+	padding-right: 0;
+}
+.filter-nav{
+	padding: 20px;
+}
+
+.icon__truck{
+	font-size: ;
+}
+.brand-item{
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.__blog{
+	background-image: url("product/back.png");
+	background-color: black;
+
+}
+
+
+	
+
+
+
+
+
+
+
+
+/* Responsive css	*/
+/*	tablet*/
+@media screen and (max-width: 1025px) {
+	.font__maintitle{
+		font-size:  37px;
+	}
+}
+@media screen and (max-width: 991px) {
+.font__maintitle{
+		font-size:  24px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.font__maintitle{
+		font-size: 24px;
+	}
+
+}
+/*	end tablet*/
+/*	mobile Landscape */
+@media screen and (max-width: 767px) {
+  .font__maintitle{
+  	font-size: 16px;
+  }
+}
+	/* mobile Landscape */
+
+/*	any mobile view */
+@media screen and (max-width: 575px) {
+	.font__maintitle{
+		font-size: 100px;
+	}
+
+}
+

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+@media  (min-width: 992px) {
+	.about__us_heading{
+		font-size: 50px;
+	}
+	.sustinability_card{
+     width: 18rem !important;
+	}
+	.about__us_heading{
+		font-size: 50px !important;
+	}
+	
+}
+
+@media (min-width: 768px) {
+	.about__us_heading{
+		font-size: 40px;
+	}
+	.sustinability_card{
+		width: 14rem;
+	   }
+
+}
+/*	end tablet*/
+/*	mobile Landscape */
+@media (min-width: 576px) {
+	.about__us_heading{
+		font-size: 16px;
+	}
+  
+}
+	/* mobile Landscape */
+
+/*	any mobile view */
+@media  (max-width: 576px) {
+.about__us_heading{
+		font-size: 16px;
+	}
+	.sustinability_card{
+	 width: 18rem;	
+	}
+
+}
+
+
+/*************************************** about us **************************************/
+.about__us_heading:after{
+content: "";
+display: block;
+width: 100px;
+height: 1px;
+background-color: black;
+margin:0 auto 10px ;
+}
+
+
+/**************************************** end *******************************************/
+
+
+/*************************************** who we are*************************************/
+.about-section p{
+	
+	font-family: 'Open Sans', sans-serif;
+}
+.image__aboutus{
+	height:400px; 
+	  background-size: contain;
+	width:100px;
+}
+
+/********************************* ****end *********************************************/
+
+/************************** who we are section ***************************/
+.about-section h2,.what_we_do h2,.sustinability__  h2{
+  font-family: 'Lobster', cursive;
+}
+.what_we_do{
+	background-repeat:no-repeat;
+	background-attachment:	 fixed;
+	background-size: cover;
+
+}
+
+.overlay-bg:before{
+	display: block !important;
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #000;
+	opacity: 40%;
+}
+.overlay-bg > *{
+	position: relative;
+	}
+
+.bg__icon{
+   background-color: #ed4a47;
+   width: 150px;
+   height: 150px;
+   line-height: 160px;
+   border-radius: 50%;
+}
+/******************************** end ******************* */
+.fs-14{
+	font-weight: 14px;
+}
+.fs-18{
+	font-size: 18px;;
+}
+.fw-400{
+	font-weight: 400;
+}
+.fw-700{
+  font-weight: 700;
+}
+.fw-600{
+	font-weight: 600;
+}
+.fs-36{
+	font-size:36px;
+}

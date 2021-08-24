@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
+.bg-teacher-gradient{
+         background: linear-gradient(
+            180deg
+            ,#edf3ff 50%,#4f48ad 0,#4f48ad 60%,#2c2678);
+}
+
+@media (max-width:576px) {
+    .title{
+        font-size: 26px;
+    }
+    .teacher{
+        width: 100%;
+    }
+}
+
+@media (min-width:576px) {
+    .title{
+        font-size: 26px;
+    }
+    .teacher{
+        width: 50%;
+    }
+    
+}
+@media (min-width:768px){
+  .title{
+      font-size: 36px;
+  }
+  .teacher{
+    width: 50%;
+}
+.-m-md-16{
+    margin-top: -4rem;
+}
+.mt-md-10{
+    margin-top: 2.5rem;
+}
+.mr-md-16{
+    margin-right: 4rem;
+}
+.w-md-auto{
+    width: auto;
+}
+}
+@media(min-width:992px){
+ .title{
+     font-size: 36px;
+ }
+ .teacher{
+    width: 25%;
+}
+}
+
+.teacher-card ul.social{
+    list-style: none;
+}
+.teacher-card{
+    border-radius: .5rem;
+
+}
+.teacher-card img{
+    border-radius: 9999px;
+    border:9px solid #fff;
+    width:8rem;
+    height: 8rem;
+    margin:-4rem auto .5rem;
+}
+.min-h-screen{
+    min-height: 100vh;;
+}
+.flex-1{
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+.h-8{
+    height:2rem;
+}
+button{
+    border: none;
+    background: 0 0;
+}
+a{
+    color: inherit;
+}
+a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+#header-hero{
+    background: linear-gradient(0deg,#4f48ad,#1d185e 71.5%);
+}
+.hero-svg{
+ background-image: url('https://vueschool.io/img/svg/vueschool_hero.svg');
+ height: 100vh;
+ width: 100vw;
+ background-repeat: no-repeat;
+ background-position: 100% 100%;
+}
+.z-0{
+    z-index: 0;
+}
+.t-0{
+    top:0;
+}
+.b-0{
+    bottom: 0;
+}
+.r-0{
+    right:0;
+}
+.h-screen{
+    height: 100vh;
+}
+.z-10{
+    z-index: 10;
+}
+.z-20{
+    z-index: 20;
+}
+.text-lg{
+    font-size:1.125rem;
+}
+.outline-none{
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
